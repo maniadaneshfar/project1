@@ -30,8 +30,9 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#home">خانه</a> </li>
                     <li class="nav-item"><a class="nav-link" href="#article-head-section">مقالات</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#about-head-section">درباره ما</a> </li> 
                     <li class="nav-item"><a class="nav-link" href="#contact-head-section">تماس با ما</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="#about-head-section">ارتباط با ما</a> </li>
+                    
                 </ul>
 
             </div>
@@ -39,8 +40,8 @@
         </div>
     </nav>
     <!--home section-->
-    <header id=home-section>
-        <div class="dark-overly">
+    <header id="home-section">
+        <div class="overly">
             <div class="home-inner" >
                 <div class="container">
                     <div class="row">
@@ -95,6 +96,139 @@
         </div>
 
     </header>
+    <!--Article head-->
+
+    <section id="article">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-5">
+                        <h2>مقالات</h2>
+                        <p> اطلاعات بیشتر درباره ی مقالات</p>
+                        <a href="http://google.com" class="btn btn-outline-primary">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Article section-->
+    <section id="article-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div  class="col-md-6">
+                    <img src="img/article.jfif" class=" img-fluid ml-13 rounded-circle">
+                </div>
+                <div class="col-md-6 text-right ">
+                    <h3>مقالات </h3>
+                    <p>اطلاعات مربوط به مقاله شماره 1</p>
+
+                    <div class="d-flex flex-row">
+                        <div class="p-4 align-self-start">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="p-4 align-self-end">
+                            مقاله های مورد نظر 
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about head-->
+
+    <section id="article">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-5">
+                        <h2 class="py-3">درباره ما</h2>
+                        
+                        <a href="http://google.com" class="btn btn-outline-primary">اطلاعات بیشتر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about section-->
+    <section id="article-section" class="bg-light text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div  class="col-lg-6">
+                    <img src="img/about.jpg" class=" img-fluid ">
+                </div>
+                <div class="col-lg-6 text-right m-auto ">
+                    <h3 class="p-3"> معرفی سایت </h3>
+                    <p>تعریفی از سایت و اهداف آن</p>
+                    <p>تعریفی از سایت و اهداف آن</p>
+                    <p>تعریفی از سایت و اهداف آن</p>
+                    <p>تعریفی از سایت و اهداف آن</p>
+                    <p>تعریفی از سایت و اهداف آن</p>
+                    <p>تعریفی از سایت و اهداف آن</p>
+                    <h5>ادرس ایمیل و ...</h5>
+
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-3">
+                        <h1>تماس با ما</h1>
+                        <p>copyright & copy</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#contactmodal">تماس با ما</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <!--contact madal-->
+    <div class="modal fade text-dark " id="contactmodal">
+        <div class="modal-dialog">
+            <div class="content bg-light ">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalTitle">تماس با ما</h5>
+                    <button class="close ml-0" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group text-right">
+                            <label for="name">نام کاربری</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group text-right">
+                            <label for="password">رمزعبور</label>
+                            <input type="password" class="form-control">
+                        </div>
+                        <div class="form-group text-right">
+                            <label for="email">ایمیل</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group text-right">
+                            <label for="name">پیام</label>
+                            <textarea type="text" class="form-control"></textarea>
+                        </div>
+                    </form>
+    
+    
+                </div>
+                <button class="btn btn-primary btn-block ">ورود</button>
+
+
+
+
+            </div>
+
+            
+        </div>
+
+    </div>
     
 </body>
 </html>

@@ -17,13 +17,13 @@
   color: rgb(212, 212, 218);
 }
 
-#home-section .dark-overlay{
-  background-color: rgba (0,0,0,0.7);
+#home-section .overlay{
+  background-color: rgba (176,196,222,0.7);
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
-  min-height: 700px;
+  height: 100%;
 }
 
 #home-section .home-inner{
@@ -52,4 +52,11 @@
 
 .modal-header .close{
   margin-left: 0px;
+}
+#article{
+  background:rgb(51, 49, 49);
+  color: #fff;
+}
+.modal-header .close{
+  margin-left: 0px ;
 }
